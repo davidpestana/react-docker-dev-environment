@@ -45,10 +45,10 @@ create-react-app <nombre-de-tu-app>
 
 exit 
 ```
-con esto accedemos al contenedor auxiliar para ejecutar comandos node, creamos el proyecto y salimos del contenedor, comprobaremos que en e directorio source se ha creado una carpeta <nombre-de-tu-app>, y ahora solo nos queda editar docker-compose.yaml
+con esto accedemos al contenedor auxiliar para ejecutar comandos node, creamos el proyecto y salimos del contenedor, comprobaremos que en e directorio source se ha creado una carpeta < nombre-de-tu-app >, y ahora solo nos queda editar docker-compose.yaml
 para añadir un nuevo servicio como los ejemplos "practica1" y "practica2" en este caso "nombre-de-tu-app" seleccionando un puerto que este disponible
 
 ejecuta 
 > ./bin/start
 
-en localhost:<puerto> podras ver el servicio operativo.
+en localhost:< puerto > podras ver el servicio operativo.
